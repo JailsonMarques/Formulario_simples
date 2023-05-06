@@ -1,0 +1,90 @@
+/*Configuração global do CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #08BD8F, #058A68, #185243);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #dfe6e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid #CCC;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.form.signup {
+    display: block;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45A049;
+}
+
+.form-container p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-container .link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .form-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .form-container {
+        width: 50%;
+    }
+}
