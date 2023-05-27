@@ -1,6 +1,11 @@
+<p align="center">
+  <img src=".github/preview.png" alt="Demonstração do Projeto" width="100%" />
+</p>
+
 # Formulário de Login e Cadastro Responsivo
 
 Este é um exemplo simples de formulário de login e cadastro responsivo, desenvolvido utilizando HTML5, CSS3.
+
 ## Funcionalidades
 
 O formulário apresenta as seguintes funcionalidades:
